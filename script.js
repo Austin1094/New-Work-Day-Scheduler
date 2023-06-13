@@ -12,7 +12,7 @@ $(document).ready(function () {
 
   $('.saveBtn').on('click', function () {
 
-    var userInput = $(this).siblings('description').val();
+    var userInput = $(this).siblings('.description').val();
 
     var timeBlockId = $(this).parent().attr('id');
 
@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     var userInput = localStorage.getItem(timeBlockId);
 
-    $(this).find('description').val(userInput);
+    $(this).find('.description').val(userInput);
   });
   // TODO: Add code to display the current date in the header of the page.
 });
