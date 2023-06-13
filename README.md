@@ -15,4 +15,6 @@ N/A
 ## Questions?
 Feel free to ask any questions you may have by reaching out to the following:
 
-Github: https://github.com/Austin1094 Email: Austin.Adams1094@gmail.com
+Github: https://github.com/Austin1094 
+
+Email: Austin.Adams1094@gmail.com
