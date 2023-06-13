@@ -27,7 +27,7 @@ $(document).ready(function () {
 
   var currentHour = dayjs().hour();
 
-  var currentDate = dayjs().format('dddd, MMMM Do YYYY, h:mm:ss a');
+  var currentDate = dayjs().format('dddd, MMMM YYYY, h:mm:ss a');
   $('#currentDay').text(currentDate);
 
   $('.time-block').each(function () {
